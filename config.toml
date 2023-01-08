@@ -3,7 +3,7 @@
 [main-config]
 compression-level = 9         # compression level for module zips. between 1 and 9
 enable-magisk-update = true   # set this to false if you do not want to receive updates from magisk app
-parallel-jobs = 3             # max number of concurrent building jobs
+parallel-jobs = 16             # max number of concurrent building jobs
 update-prebuilts = true       # dont touch this
 build-mindetach-module = true
 
@@ -67,7 +67,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-includin
 merge-integrations = true
 
 [Spotify]
-enabled = true
+enabled = false
 build-mode = "apk"
 version = "latest"
 
